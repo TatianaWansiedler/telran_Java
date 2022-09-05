@@ -7,7 +7,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        long num = 123456789;
+        long num = -789;
+        if (num<0){
+            num=Math.abs(num);
+        }
         long num2 = 1; // число с которым мы сравниваем num
         int length = 0; //разряд числа
 
@@ -20,3 +23,4 @@ public class Main {
 
     }
 }
+

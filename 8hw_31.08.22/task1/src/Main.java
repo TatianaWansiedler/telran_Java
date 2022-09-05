@@ -12,11 +12,9 @@ public class Main {
        int num=3;
        int i=1;
        int n=10;
-       int res=0;
 
        while (i<=n) {
-           res=num * i;
-           System.out.printf(" %d * %d = %d %n",num,i,res);
+           System.out.printf(" %d * %2d = %d %n",num,i,num * i);
            i++;
        }
     }
