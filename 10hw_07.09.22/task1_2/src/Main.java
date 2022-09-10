@@ -11,17 +11,17 @@ public class Main {
     public static void main(String[] args) {
         String str = "Java is a very popular language";
         int startIndex = 5;
-        int endIndex = -1;
+        int endIndex = 13;
         String str1 = "";
 
-        while (startIndex>0 && startIndex < endIndex && startIndex<str.length()) {
-            str1 += str.charAt(startIndex);
-            startIndex += 1;
-        }
-        System.out.println(str1);
+        for ( ;startIndex>0 && startIndex < endIndex && startIndex<str.length(); startIndex += 1) {
+          str1 += str.charAt(startIndex);
+         }
 
         if ( startIndex<0 || startIndex>str.length() || startIndex>endIndex){
             System.out.println("error");
+        } else {
+            System.out.printf("New String is \" %s \" ",str1);
         }
 
     }
