@@ -14,13 +14,12 @@ public class Main {
         int endIndex = 13;
         String str1 = "";
 
-        for ( ;startIndex>0 && startIndex < endIndex && startIndex<str.length(); startIndex += 1) {
-          str1 += str.charAt(startIndex);
-         }
-
         if ( startIndex<0 || startIndex>str.length() || startIndex>endIndex){
             System.out.println("error");
         } else {
+            for ( ;startIndex>0 && startIndex < endIndex && startIndex<str.length(); startIndex += 1) {
+                str1 += str.charAt(startIndex);
+            }
             System.out.printf("New String is \" %s \" ",str1);
         }
 
