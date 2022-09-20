@@ -6,7 +6,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        String accountNumber = "DE5128279087265600";
+        String accountNumber = "DE565898898787600";
         System.out.println(hiddenNumber(accountNumber,3));
         System.out.println("--------------------------------------------------");
         System.out.println(hiddenNumber1(accountNumber,4,14));
