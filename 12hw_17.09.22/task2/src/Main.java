@@ -10,7 +10,7 @@ public class Main {
         String str = "Hello world!";
 
         System.out.println(replace(str, "world", "all"));       // Hello all!
-        System.out.println(str.replace("world", "all"));    // Hello all!
+
     }
 
 
